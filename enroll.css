@@ -1,0 +1,90 @@
+ body { background-image : url("back1.jpeg") ;
+         background-repeat: no-repeat;
+    background-size: cover;} 
+
+h2
+{
+ 
+ font-family:cooper;
+ color: white;
+ font-size: 230%;
+}
+
+h3
+{
+font-family:Engravers MT;
+color: #FAAFBE;
+font-weight:bold;
+font-size: 150%;
+}
+
+
+fieldset 
+{
+ margin-top: 0.5em;
+ margin-bottom: 0.5em; 
+ width:500px;
+ padding-top: 0.5em;
+ border-color:#F8F8FF;
+ border-width:4px;
+ border-radius:10px;
+ border-style: ridge;
+}
+
+legend
+ {
+   color: white; 
+   font-family: ;
+   font-weight: bold;
+   font-size: 150%;
+   margin-bottom: 0.5em; 
+ }
+
+label, input, select
+{
+ font-size: 90%;
+ }
+
+label 
+{
+  float: left; 
+  width: 200px;
+  font-weight: bold;
+  color:white;
+  text-align: right; 
+}
+
+input, select ,td
+{
+ width: 15em;
+ margin-left: 1em;
+ margin-bottom: 0.5em; 
+}
+option { color: grey;}
+input:required, input[required] 
+{
+border: 2px solid grey; 
+}
+
+input:valid {
+ border: 1px solid black; 
+}
+
+input:invalid {
+ box-shadow: none; 
+}
+p{ font-family : Kristen ITC;
+   font-weight: bold;
+   color : white; }
+
+br ( ) {
+clear: both; 
+}
+
+#buttons input {
+font-weight: bold;
+width: 12em;
+height:2.5em; 
+box-shadow: 2px 2px 0 GREY;
+background-colour: silver;
+}

@@ -1,0 +1,58 @@
+<html>
+<head>
+  <link rel="stylesheet" href="enroll.css">
+</head>
+<body>
+<center>
+<marquee>ENROLL HERE !</marquee>
+<center><img  src="dance.jpeg" height="100" widht="60"><center><br>
+<u><h2>NRITYAA केंद्र</h2></u>
+<h3> Enrollment FORM</h3>
+<form action="submit.html" method="get" name="enroll_form" id="enroll_form">
+
+<fieldset>
+<legend>Registration-Information</legend>
+<label for="email">E-mail:</label>
+<input type="email" name="email" id="email" autofocus required><br>
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" required 
+        placeholder="at least 6 character or numbers"
+        pattern="[a-zA-Z0-9]{6,}"
+        title="Must be atleast 6 alpha numeric characters"><br>
+<label for="verify">Verify Password:</label>
+<input type="password" name="verify" id=verify" required><br>
+</fieldset>
+
+<fieldset>
+<label for="first_name">First Name:</label>
+<input type="text" name="first_name" id="first_name" required><br>
+<label for="last_name">Last Name:</label>
+<input type="text" name="last_name" id="last_name" required 
+           title="if last name doesn't exists ,write "xyz""><br>
+<label for="no.">Whatsapp Number:</label>
+<input type="text" name="no." id="no." required><br>
+<label for="style">Dance Style:</label>
+<select name="style">
+         <option>KHATAK</option>
+         <option>CONTEMPORARY</option>
+         <option>BALLET</option>
+         <option>WHACKING</option>
+         <option> HIP HOP</option>
+         <option>FREESTYLE</option></select>
+<label for="mode">Mode :</label>
+<table><tr>
+<td><option>Online</option>
+<input type="radio" name="mode" ></td>
+<td><option>IN Studio</option><input type="radio" name="mode"></td></tr></table>
+</fieldset></center>
+
+<center><p>ANY QUERIES ? ASK AWAY !<p><br>
+<textarea name="queries" rows="10" cols="30">
+</textarea></center>
+<br>
+
+<input type=submit value="REGISTER">
+<input type=reset>
+</form>
+</body>
+</html>

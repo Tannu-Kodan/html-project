@@ -1,0 +1,86 @@
+body
+{
+background-image :url("1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100% 100%;
+color : black;
+font-family : Kristen ITC;
+}
+.bodybg
+{
+background-image :url("2.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100% 100%;
+}
+.bodyfont
+{
+color : black;
+font-family : Kristen ITC;
+}
+
+table
+{
+font-family : Lucida Bright;
+font-size : 150%;
+background-color : rgb(230, 230, 250);
+}
+h1
+{
+font-size : 50px;
+font-color : rgb(0, 128, 128);
+}
+h2
+{
+padding: 5px;
+font-color :black;
+font-size : 25px;
+}
+.box 
+{
+  margin-right: 180px;
+  margin-left: 180px;
+  padding: 10px;
+  font-size: 25px;
+  background: rgb(255, 228, 225);
+}
+.warn
+{
+  color: rgb(0, 128, 128);
+  background: rgb(255, 228, 225);
+  border: 1px solid darkred;
+}
+#tableid
+{
+cellspacing : 4px;
+background-color : black;
+}
+#text
+{
+font-sixe : 5px;
+font-color : white;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+body{
+      margin-top:50px; 
+      padding-left:100px;
+      width: 900px;
+     height: 400px;
+    }
+
+ h1 {
+      color: #FAAFBE;
+      font-size: 180%;
+      padding-top:5px;
+      font-weight: bold;
+      text-decoration:underline;
+      text-align: center;
+     font-family:Engravers MT;
+}
+ main { float : right;
+       color: white; }
+
+figcaption{ font-weight: bold;
+            border-bottom:2px solid white;
+             text-align: center;}
+    
+
+
+main h2 { 
+     font-family:Ink Free;
+     color:#FAAFBE; 
+      text-decoration:underline;
+      font-size: 180%;
+      text-align: center;
+      font-weight: bold;
+      }
+main p { font-size: 130%;
+         align: center; }
+main pre { font-size: 125%;
+           font-weight: bold;}        
+
+main img {
+   border : 3px solid white;
+   border-radius:7px;
+   width: 250px;
+   height: 330px; }
+ 
+main figure { float: left;
+             margin: 1em 1 em ;}
+main pre h4{ text-size:150%;}
+
+aside { width: 900px;
+        height :50px
+        border : 2px solid white;
+        background-color: #F8F8FF;
+        color: black;
+        font-weight: bold;
+        font-size: 80%;
+       font-family:Segoe Print;
+       ; 
+        }
+table {
+  background-color :#F8F8FF; }
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red; }
+              
+
+side {  float : left;
+	width: 250px;
+	padding-left: 10px;
+        color : white
+}
+side h2 {
+	color:#FAAFBE ;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+side h3 { 
+        color : white
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+side img {
+	padding-bottom: .5em;
+}
+ side a:link { color : #F8F8FF; }

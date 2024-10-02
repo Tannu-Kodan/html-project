@@ -1,0 +1,94 @@
+html {
+   background-image: url("back.jpeg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    
+    
+    font-size: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    
+   
+}
+
+header {
+      padding: 1.5em 0 2em 0;}
+
+header h2 {
+	font-family: Cooper;
+	font-size: 230%;
+	color: white;
+}
+header h3 { font-family:Goudy Stout;
+        padding-top:1px;
+	font-size: 250%;
+	font-style: italic;
+       color: white;
+       text-shadow: 2px 2px 2px #FAAFBE;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: right;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    border: 2px solid black;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+ }
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul ul li a{
+       display: block;
+       width: 150px;
+       text-align: centre;
+       font-size: 80%;
+       border-bottom: 2px solid black;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+        
+}
+a:hover, a:focus {
+      font-style: italic;
+      color: #F8F8FF; }
+
+footer { clear: both; 
+         margin-top:20px;
+         border : 1px solid white;
+         font-size: 110%;}
+footer p { float : left; 
+           color : white; }
+footer pre {
+        
+        float:right;
+	color: white;
+	padding: 1em 0;
+}
+
+
